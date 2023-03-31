@@ -1,0 +1,1318 @@
+/* for less-than 1024px screen size */
+
+@media(max-width:1300px) {
+    .benifit-item-section .benifit-item-part .benifit-list li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .blog-section .blog-block {
+        flex-wrap: wrap;
+    }
+   
+    
+    .filter-section{
+        margin-top: 0;
+    }
+    .devices-section{
+        margin-top: 0;
+    }
+    .blog-section .blog-box{
+        margin-bottom: 30px;
+    }
+    .filter-box .filter-type{
+        flex-wrap: wrap;
+    }
+    .filter-box .filter-type .filter-list label{
+        min-width: 150px;
+    }
+    .filter-box .filter-type .filter-list{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+    }
+    .filter-box .filter-type .filter-list select {
+        max-width: 100%;
+    }
+    .devices-section .item-list .devices {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    .blog-section{
+        max-height: 4000px;
+    }
+
+    .blog-section h6::after{
+        display: none;
+    }
+    .request-quote-section .off-switch-box{
+        flex: 0 0 50% ;
+        max-width: 50%;
+    }
+    
+    .request-quote-section .on-switch-box{
+        flex: 0 0 50% ;
+        max-width: 50%;
+    }
+
+}
+
+@media(max-width:1024px) {
+    p {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 47px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        font-size: 47px;
+        margin-bottom: 13px;
+    }
+
+    h3 {
+        font-size: 42px;
+    }
+    .request-quote-section .personl-details-block{
+        margin-bottom: 0;
+    }
+    h4{
+        margin-bottom: 23px;
+        font-size: 22px;
+        line-height:40px
+    }
+    h6 {
+        font-size: 20px;
+        margin-bottom: 13px;
+    }
+    .owl-nav .owl-next span::after{
+        height: 45px;
+        width: 30px;
+    }
+    .owl-nav .owl-prev span::after{
+        height: 45px;
+        width: 30px;
+    }
+   .blog-section .blog-list{
+    display: flex;
+        flex-wrap: wrap;
+    }
+    .blog-section .blog-block .img-blog-block{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .blog-section .blog-block .blog-list-box{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+
+    }
+    
+    .blog-list .category-list{
+        flex: 0 050%;
+        max-width: 50%;
+    }
+    .blog-list .popular-tag-list{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .request-quote-section .form-check .form-check-input {
+        height: 37px;
+        width: 67px;
+        margin-left: -11px;
+    }
+    .benifit-item-section .benifit-item-part .benifit-list li {
+        font-size: 17px;
+    }
+    .filter-box .title-box{
+        padding-top: 0;
+        font-size: 17px;
+    }
+    .serch-button-box{
+        padding-left: 0;
+    }
+    .request-quote-section{
+        padding: 60px 0;
+    }
+    .request-quote-section h1{
+        margin-bottom: 30px;
+    }
+    .owl-nav span {
+        font-size: 50px;
+    }
+    .request-quote-section .off-switch-box{
+        flex: 0 0 100% ;
+        max-width: 100%;
+    }
+    .devices-section .item-list .item p{
+        font-size: 20px;
+    }
+    .request-quote-section .on-switch-box{
+        flex: 0 0 100% ;
+        max-width: 100%;
+    }
+    .serch-section .serch-box .input-serch-block {
+        flex-wrap: wrap;
+    }
+
+    .contect-block ul {
+        margin-bottom: 10px;
+    }
+
+
+    .serch-section .serch-box span {
+        font-size: 23px;
+    }
+ 
+    .blog-section .lg-text{
+        font-size: 20px;
+    margin-bottom: 15px;
+    }
+    .serch-section .input-serch-block .serch-button .text-box {
+        font-size: 15px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+        margin-bottom: 13px;
+        line-height: 1.4;
+    }
+    .blog-section h1{
+        margin-bottom: 35px;
+    }
+    .choose-box ul {
+        padding-left: 17px;
+    }
+    .choose-box ul li {
+        margin-bottom: 13px;
+        font-size: 17px;
+    }
+
+    .about-section .choose-box .choose-benefits-list {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .about-section .choose-box .image-box {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .about-section .conten-box {
+        flex: 0 0 65%;
+        max-width: 65%;
+    }
+
+    .about-section .image-block {
+        flex: 0 0 35%;
+        max-width: 35%;
+    }
+
+    .serch-section .input-serch-block input {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 7px;
+    }
+
+    .serch-section .input-serch-block .serch-button-box .serch-button {
+        max-width: 150px;
+
+    }
+
+    .serch-section .input-serch-block .serch-button-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .working-pocess-section {
+        padding: 40px 0;
+    }
+
+    
+    .working-pocess-section .custom-row .serch-img-block::after {
+        height: 70px;
+        width: 70px;
+        right: -35px;
+        top: 20%;
+    }
+
+    .working-pocess-section .custom-row .services-img-block::after {
+        height: 70px;
+        width: 70px;
+        right: -35px;
+        top: 20%;
+    }
+
+    .working-pocess-section .custom-row .custom-colum {
+        padding: 0 20px;
+    }
+
+    .device-categroy-section {
+        padding: 40px 0;
+    }
+
+    .secondary-carousel img {
+        margin-bottom: 15px;
+    }
+
+    .secondary-carousel .item p {
+        font-size: 12px;
+    }
+
+    .footer-part {
+        flex-wrap: wrap;
+    }
+    .footer .sign-in-box{
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: block;
+    }
+    .footer .input-block{
+        max-width: 60%;
+        min-width: 250px;
+        /* display: block; */
+    }
+    .footer .footer-part .menu-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .benifit-item-part {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .image-part {
+        flex: 0 0 100%;
+        max-width: 100%;
+        min-height: 300px;
+        display: none;
+    }
+
+    .sign-in-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+    }
+
+    .benifit-item-section .benifit-item-part .benifit-list h2,
+    .benifit-item-section .benifit-item-part .benifit-list p {
+        text-align: center;
+    }
+
+    .benifit-item-section .benifit-item-part .benifit-list {
+        width: 100%;
+        max-width: 900px;
+        margin-left: 0;
+    }
+
+    .benifit-item-section .benifit-item-part .benifit-list ul li {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .benifit-item-section .benifit-item-part .benifit-list ul {
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+
+    .footer .footer-part {
+        padding: 35px 0;
+    }
+
+    .footer .menu-box p {
+        display: none;
+    }
+
+    .footer .sign-in-box p {
+        margin-bottom: 10px;
+    }
+
+    .footer .sign-in-box .social-icon {
+        margin-left: auto;
+    }
+    .footer .sign-in-box {
+        place-content: 0;
+    }
+
+    .sign-in-box {
+        flex-wrap: wrap;
+    }
+
+    .footer .nav-block {
+        margin-bottom: 15px;
+    }
+
+    .footer .input-block {
+        margin: 0;
+    }
+
+    .request-section p {
+        margin-bottom: 15px;
+    }
+
+    .request-section {
+        padding: 45px 0;
+    }
+
+    .contact-section .contect-part {
+        max-width: 350px;
+    }
+
+    .contact-section {
+        min-height: 500px;
+    }
+
+    .contact-section .contect-part {
+        padding: 25px 15px;
+    }
+    .about-section .choose-box {
+        flex-wrap: wrap;
+    }
+
+    .about-section .choose-box .choose-benefits-list {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-section .choose-box .image-box{
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .about-section .choose-box .image-box img{
+        object-fit: contain;
+        padding-left: 0;
+    }
+    .about-section{
+        padding: 60px 0;
+    }
+    .blog-section{
+        padding: 50px 0;
+    }
+    .blog-section .button-wrapper .serch-button-box{
+        padding-left: 0;
+    }
+    .nav-block ul li a{
+        font-size: 16px;
+    }
+    .serch-section .serch-box p{
+        flex-wrap: wrap;
+    }
+}
+
+
+/* for less-than 768px screen size */
+
+@media(max-width:768px) {
+    p {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 43px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 43px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 38px;
+    }
+    h4{
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height:35px
+    }
+    h6 {
+        font-size: 17px;
+        margin-bottom: 10px;
+        line-height: 22px;
+    }
+
+    .benifit-item-section .benifit-item-part .benifit-list li {
+        font-size: 15px;
+    }
+    .request-quote-section .form-check .form-check-input {
+        height: 35px;
+        width: 60px;
+        margin-left: -11px;
+    }
+    .choose-box ul {
+        padding-left: 15px;
+    }
+    .choose-box ul li {
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+    .devices-section .item-list .item p{
+        font-size: 18px;
+    }
+    .request-quote-section{
+        padding: 50px 0;
+    }
+    .request-quote-section h1{
+        margin-bottom: 20px;
+    }
+    .filter-box .filter-type .filter-list label{
+        font-size: 14px;
+    }
+    .serch-section .serch-box p{
+        font-size: 16px;
+    }
+    .filter-box{
+        padding:10px;
+    }
+    .about-section .conten-box {
+        flex: 0 0 55%;
+        max-width: 55%;
+    }
+    .header .top-header{
+        padding: 10px 0;
+    }
+    .filter-box .title-box{
+        font-size: 15px;
+    }
+    .devices-section .item-list .devices {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .devices-section .item-list .item {
+        padding: 20px 20px;
+    }
+    .devices-section .item-list .devices {
+        padding: 8px;
+    }
+    .devices-section .item-list{
+        margin: -8px;
+    }
+    .blog-section h1{
+        margin-bottom: 25px;
+    }
+    .about-section .image-block {
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+    button.btn {
+        font-size: 13px;
+
+    }
+    .about-section .about-box {
+        display: flex;
+        margin: 0 -10px;
+        margin-bottom: 40px;
+    }
+    .blog-section ul li{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .btn span {
+        font-size: 15px;
+    }
+
+    .about-section .about-box .image-block, .about-section .about-box .conten-box {
+        padding: 0 10px;
+    }
+    .about-section .about-box img{
+        min-height: 250px;
+        width: 250px;
+    }
+    .blog-section .lg-text{
+        font-size: 18px;
+    margin-bottom: 10px;
+    }
+    .serch-section .serch-devices-block {
+        margin-top: 20px;
+    }
+    .about-section .choose-box img{
+        min-width: 300px;
+        min-width: 300px;
+    }
+
+    .nav-block .desktop-hide {
+        display: flex;
+    }
+   
+    .desktop-hide .button-secondary span i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-header {
+        padding: 10px 0;
+    }
+
+    .sign-in-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .input-block {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+.blog-section .img-blog-box{
+    flex-wrap: wrap;
+}
+.blog-section .blog-block .img-blog-box .img-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.blog-section .blog-block .img-blog-box .blog-box{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0;
+}
+
+    .footer .sign-in-box .social-icon {
+        margin: 0;
+    }
+    .serch-section .serch-box p {
+        flex-wrap: wrap;
+        line-height: 1.3;
+    }
+
+    .about-section p {
+        font-size: 15px;
+        margin-bottom: 11px;
+        line-height: 1.3;
+    }
+.blog-section h5 span{
+    font-size: 22px;
+}
+.blog-section p{
+    font-size: 14px;
+}
+.blog-section h5 {
+    margin-bottom: 20px;
+}
+.filter-box .filter-type .filter-list select{
+    font-size: 14px;
+}
+    .header .header-contect-block .mobile-show {
+        display: none;
+    }
+    .devices-section .pagination-button ul a {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .devices-section .pagination-button ul li{
+        padding: 0 5px;
+    }
+    .blog-section .responce-icon{
+        font-size: 12px;
+    }
+    .header-contect-block {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .header .nav-block ul li {
+        flex-wrap: wrap;
+    }
+
+    .header .nav-block ul li button {
+        flex: 0 0 100%;
+        max-width: 60%;
+    }
+
+    .header .nav-block ul li .button-secondary {
+        margin-bottom: 10px;
+    }
+
+    .header .button-primary {
+        border-left: 1px solid #d2d0d0;
+    }
+
+    .working-pocess-section {
+        padding: 25px 0;
+    }
+
+    .device-categroy-section {
+        padding: 25px 0;
+    }
+
+    .request-section {
+        padding: 30px 0;
+    }
+
+    .contact-section .contect-part {
+        padding: 20px 10px;
+    }
+
+    .contact-section p {
+        margin-bottom: 10px;
+    }
+
+    .contact-section .contect-part .input-text {
+        margin-bottom: 10px;
+        padding: 7px 0 7px 7px;
+        width: 100%;
+    }
+
+    .contact-section {
+        min-height: 400px;
+    }
+    .about-section{
+        padding: 50px 0;
+    }
+ 
+    .header .logo-block img {
+       object-fit: contain;
+        width: 200px;
+    }
+
+    .contect-box {
+        justify-content: space-between;
+    }
+
+    .login-box {
+        justify-content: center;
+    }
+
+    .header-contect-block {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header .logo-block {
+        margin-bottom: 8px;
+    }
+
+    .header .nav-block {
+        height: 100%;
+        position: fixed;
+        top: 73px;
+        left: auto;
+        right: -400px;
+        max-width: 400px;
+        z-index: 25;
+        background-color: #ffffff;
+        color: #000000;
+        transition: all 0.5s;
+    }
+
+    .desktop-hide a:hover {
+        background-color: #ffffff;
+    }
+
+    .nav-block .desktop-hide a:hover {
+        background-color: transparent;
+    }
+
+    .nav-block .desktop-hide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 7px 10px;
+    }
+
+    .nav-block .desktop-hide a {
+        padding: 0;
+    }
+
+    .nav-block .desktop-hide i {
+        padding-right: 10px;
+    }
+
+    .header .nav-block ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-block ul {
+        flex-wrap: wrap;
+    }
+
+    .nav-block ul li {
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-block ul li a {
+        border: none;
+        color: #000000;
+        position: relative;
+    }
+    .footer .nav-block ul li{
+        justify-content:start;
+    }
+    .footer .nav-block ul{
+        padding-left: 20px;
+    }
+    .hamburger-menu {
+        display: inline-block;
+        display: flex;
+    }
+
+    .footer .nav-block ul li a {
+        color: #ffffff;
+    }
+
+    .working-pocess-section .custom-row .services-img-block::after {
+        top: 10%;
+    }
+
+    .working-pocess-section .custom-row .serch-img-block::after {
+        top: 10%;
+    }
+
+    .working-pocess-section .custom-row .serch-img-block::after {
+        height: 45px;
+        width: 45px;
+        right: -22px;
+        top: 15%;
+    }
+
+    .working-pocess-section .custom-row .services-img-block::after {
+        height: 45px;
+        width: 45px;
+        right: -22px;
+        top: 15%;
+    }
+
+    .owl-carousel.secondary-carousel .owl-stage-outer::before {
+        display: none;
+    }
+
+    .owl-carousel.secondary-carousel .owl-stage-outer::after {
+        display: none;
+    }
+
+    .footer .nav-block {
+        margin-bottom: 0;
+    }
+
+    .owl-nav .owl-next span::after {
+        height: 30px;
+        width: 30px;
+    }
+
+    .owl-nav .owl-prev span::after {
+        height: 30px;
+        width: 30px;
+    }
+
+    .nav-block ul li:first-child a {
+        padding-left: 20px;
+    }
+
+    .footer .nav-block ul li:first-child a {
+        padding-left: 20px;
+    }
+    .about-section .about-box{
+        flex-wrap: wrap;
+    }
+.about-section .about-box .conten-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+    .about-section .about-box .conten-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-section .image-block{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .footer-part .menu-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .sign-in-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: flex;
+    }
+    
+    .about-section .image-block {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .serch-section .serch-devices-block {
+        margin-top: 10px;
+    }
+    .about-section h1{
+        margin-bottom: 25px 0;
+    }.blog-section{
+        padding: 40px 0;
+    }
+  .request-quote-section .mobile-hide{
+    display: none;
+  }
+  .request-quote-section .reating-box ul{
+    margin-top: 15px;
+  }
+  .request-quote-section .form-check-inline label{
+    margin-top: 15px;
+  }
+  .modal .modal-body .login-box{
+    flex-wrap: wrap;
+  }
+
+  
+
+}
+
+
+/* for lessthan 768px screen size */
+
+@media(max-width:576px) {
+    p {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 37px;
+        margin-bottom: 8px;
+    }
+
+    h2 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+    h4{
+        margin-bottom: 10px;
+        font-size: 17px;
+        line-height:30px
+      }
+      h6 {
+        font-size: 14px;
+        margin-bottom: 8px;
+        line-height: 21px;
+        text-align: center;
+    }
+    
+    .filter-box .filter-type .filter-list label{
+        font-size: 13px;
+    }
+    .filter-box .filter-type .filter-list select{
+        font-size: 13px;
+    }
+    .banner-section .choice-devices-block {
+        bottom: 1000px;
+    }
+    .serch-section .serch-box{
+        padding: 10px 15px;
+    }
+    .request-quote-section .on-switch-box{
+        display: block;
+    }
+    .filter-box{
+        padding-top:10px;
+    }
+    .devices-section .item-list .item p{
+        font-size: 15px;
+    }
+    .request-quote-section .off-switch-box{
+        display: block;
+    }
+    .request-quote-section .switch-box label{
+        font-size: 13px;
+    }
+    .request-quote-section label{
+        font-size: 12px;
+    }
+    .devices-section .item-list .devices {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .request-quote-section .form-check .form-check-input {
+        height: 28px;
+        width: 50px;
+        margin-left: -11px;
+    }
+    .serch-section .serch-box p{
+        font-size: 13px;
+    }
+    .request-quote-section{
+        padding: 30px 0;
+    }
+    .request-quote-section h1{
+        margin-bottom: 10px;
+    }
+    .serch-section .serch-box span {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .blog-section h5 span{
+        font-size: 20px;
+    }
+    .blog-section .blog-box ul{
+        margin: 0 -10px;
+    }
+    .blog-section .blog-box ul li{
+        padding: 0 10px;
+    }
+    .owl-nav .owl-prev {
+        left: 8px;     
+    }
+    
+    .owl-nav .owl-next {       
+        right: 8px;
+    }
+    
+    .blog-section h5 {
+        margin-bottom: 15px;
+    }
+    .blog-section p{
+        font-size: 13px;
+    }
+    .blog-section .responce-icon{
+        font-size: 10px;
+    }
+    .btn span {
+        font-size: 14px;
+    }
+    button.btn {
+        font-size: 12px;
+    
+    }
+    .serch-section .input-serch-block .serch-button-box .serch-button {
+        border-radius: 3px;
+    }
+    .blog-section ul li{
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .blog-section .lg-text{
+        font-size: 15px;
+    margin-bottom: 8px;
+    }
+    .about-section p {
+        font-size: 14px;
+        margin-bottom: 8px;
+        line-height: 1.3;
+    }
+    .blog-section h1{
+        margin-bottom: 15px;
+    }
+    .choose-box ul{
+        padding-left: 12px;
+    }
+    .choose-box ul li {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .about-section{
+        padding: 30px 0;
+    }
+    .about-section h1{
+        margin-bottom: 20px;
+    }
+    .benifit-item-section .benifit-item-part .benifit-list li {
+        font-size: 14px;
+    }
+    .about-section .about-box img{
+        max-height: 150px;
+        max-width: 200px;
+    }
+
+    .about-section .choose-box img{
+        max-width: 300px;
+        max-width: 300px;
+    }
+ 
+    .about-section .image-block{
+        display: flex ;
+        justify-content: center;
+    }
+
+    .about-section .about-box {
+        flex-wrap: wrap;
+    }
+
+    .blog-section .blog-list{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .blog-section .blog-list .category-list{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .blog-section .blog-list .popular-tag-list{
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+
+    .about-section .about-box .image-block, .about-section .about-box .conten-box{
+        margin-bottom: 15px;
+    }
+    .about-section .choose-box .choose-benefits-list{
+        margin-bottom: 15px;
+    }
+    .about-section .about-box{
+        margin-bottom: 0;
+    }
+    .about-section .choose-box .image-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+
+    .working-pocess-section {
+        padding: 20px 0;
+    }
+
+    .header .logo-block img {
+        object-fit: contain;
+        width: 150px;
+    }
+
+    .owl-nav .owl-next span::after {
+        height: 25px;
+        width: 25px;
+    }
+
+    .owl-nav .owl-prev span::after {
+        height: 25px;
+        width: 25px;
+    }
+
+    .top-header {
+        padding: 8px 0;
+    }
+
+    .header .logo-block {
+        margin-bottom: 8px;
+    }
+
+    .device-categroy-section {
+        padding: 15px 0;
+    }
+
+    .request-section {
+        padding: 20px 0;
+    }
+
+    .request-section p {
+        margin-bottom: 10px;
+    }
+
+    .header .logo-block img {
+       object-fit: contain;
+        width: 150px;
+    }
+
+    .benifit-item-section .benifit-item-part .benifit-list ul li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .serch-section .serch-box p {
+        flex-wrap: wrap;
+        line-height: 1.3;
+    }
+
+    .banner-section .not-active {
+        display: block;
+    }
+
+    .banner-section .active {
+        display: none;
+    }
+
+    .contect-box {
+        flex-wrap: wrap;
+    }
+
+    .header-contect-block {
+        justify-content: center;
+    }
+
+    .header .button-primary {
+        border-left: 1px solid #d2d0d0;
+    }
+
+    .header .nav-block {
+        top: 55px;
+    }
+
+    .login-box {
+        padding-left: 10px;
+    }
+
+    .header-contect-block ul {
+        margin: 0;
+    }
+
+    .working-pocess-section .custom-row {
+        flex-wrap: wrap;
+    }
+
+    .working-pocess-section .custom-row .custom-colum {
+        flex: 0 0 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .working-pocess-section .custom-row .serch-img-block::after {
+        display: none;
+        margin-bottom: 10px;
+    }
+
+    .working-pocess-section .custom-row .serch-img-block {
+        margin-bottom: 30px;
+    }
+
+    .working-pocess-section .custom-row .services-img-block::after {
+        display: none;
+    }
+
+    .working-pocess-section .custom-row .services-img-block {
+        margin-bottom: 30px;
+    }
+
+    .working-pocess-section .custom-row .img-block {
+        margin-bottom: 10px;
+    }
+
+    .contact-section .contect-part .input-text {
+        margin-bottom: 7px;
+        padding: 5px 0 5px 5px;
+    }
+    .blog-section .blog-box ul li a{
+        font-size: 12px;
+    }
+    input {
+        font-size: 12px;
+    }
+
+    .contact-section .contect-part {
+        width: 80%;
+    }
+
+    .benifit-item-section .benifit-item-part .benifit-list {
+        padding: 20px 20px 0 10px;
+    }
+
+    .request-section h2 {
+        line-height: 1;
+    }
+
+    .contact-section {
+        min-height: 370px;
+    }
+
+    .nav-block ul li a {
+        padding: 8px 10px;
+    }
+
+    .header .nav-block ul li button {
+        flex: 0 0 100%;
+        max-width: 80%;
+    }
+    .blog-section{
+        padding: 25px 0;
+    }
+    
+   
+    .request-quote-section .form-check.form-switch{
+        margin-top: 5px;
+        margin-left: 0;
+    }
+    .request-quote-section .request-button{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .request-quote-section .request-button{
+        margin-top: -15px;
+    }
+    .request-quote-section .title-box {
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+    .modal .modal-body .login-box .login-with-googl-facebook{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 60px;
+  }
+  .modal .modal-body .login-box .login-with-googl-facebook::after{
+    height: 0;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .modal .modal-body .login-box .login-with-googl-facebook .text-box{
+    bottom: -50px;
+left: 50%;
+transform: translateX(-50%);
+top: auto;
+right: auto;
+}
+  .modal .modal-body .login-box .login-with-selL4CASH{
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0;
+}
+
+
+}
+
+@media(max-width:400px) {
+    .header-contect-block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contect-block {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+    .blog-section .blog-box ul{
+        margin: 0 -5px;
+    }
+    .blog-section .blog-box ul li{
+        padding: 0 5px
+    }
+    .contect-block ul {
+
+        justify-content: center;
+    }
+
+    .login-box {
+
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .header .contect-block ul {
+        display: flex;
+        justify-content: center;
+    }
+}
